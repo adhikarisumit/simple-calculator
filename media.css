@@ -1,0 +1,38 @@
+/* Default styles are inherited from style.css */
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90vw; /* Adjust container width for smaller screens */
+        height: auto; /* Allow dynamic height */
+    }
+
+    input {
+        font-size: 16px; /* Decrease font size for inputs */
+        padding: 10px; /* Adjust padding */
+    }
+
+    button {
+        font-size: 12px; /* Decrease button font size */
+        padding: 6px 15px; /* Adjust button padding */
+    }
+
+    h3 {
+        font-size: 24px; /* Scale down result text size */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 95vw; /* Further adjust container width for very small screens */
+        padding: 10px; /* Add padding for spacing */
+    }
+
+    input, button {
+        width: 100%; /* Make inputs and buttons take full width for better usability */
+    }
+
+    h3 {
+        text-align: center; /* Center align result text */
+        font-size: 20px; /* Scale down further */
+    }
+}
